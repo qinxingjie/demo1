@@ -23,6 +23,9 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public String getMessage(SqlDO sqlDO) {
+        TestDO testDO = new TestDO();
+        testDO.setId(231);
+        testDO.setDetail("detail");
         return sqlDTO.getInfo(sqlDO).toString();
     }
 }
