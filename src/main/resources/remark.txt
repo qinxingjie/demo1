@@ -1,0 +1,7 @@
+date: 20191212
+version: 0.0.1
+description: spring-boot2.2.1(GA)的一个脚手架，
+             基于Mybatis3的数据库操作
+package: mvn clean package /jar
+idea: IntelliJ IDEA
+function:
